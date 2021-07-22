@@ -1,0 +1,26 @@
+{
+  "name": "TrackingApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon port.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "momentjs": "^2.0.0",
+    "mongoose": "^5.11.10",
+    "nodemailer": "^6.4.17",
+    "socket.io": "^4.1.1",
+    "uniqid": "^5.2.0"
+  }
+}
